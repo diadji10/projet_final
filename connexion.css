@@ -1,0 +1,206 @@
+/*font-family: 'Work Sans', sans-serif;*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* EN-TETE*/
+header{
+    top: 0;
+    z-index: 9999;
+    position: fixed;
+    display: grid;
+    height: 15vh;
+    width: 100%;
+    background-color: whitesmoke;
+    font-size: 50px;
+    grid-template-columns: 1fr 5fr 4fr;
+    grid-gap: 10px;
+}
+header a{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: lighter;
+    color: rgb(42,66,66);
+    text-decoration: none;
+}
+
+header .logo img{
+    height: 99%;
+    width: 100%;
+}
+header .searchbar{
+    border: none;
+    top: 1px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    bottom: 18px;
+    border: none;
+    margin: auto;
+    height: 50px;
+    width: 90%;
+}
+header .searchbar input{
+    border: 1px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    flex: 5;
+    height: 100%;
+    height: 100%;
+    width: 100%;
+}
+header .searchbar .search-icon{
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex: 1;
+    height: 100%;
+    background-color: rgb(42,66,66);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+header .searchbar .search-icon:hover{
+    background-color: rgba(203, 201, 201, 0.605);
+    color: rgb(42,66,66);
+}
+header .submenu{
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    color: rgb(42,66,66);
+}
+header .submenu div{
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+header .magasins i{
+    position: relative;
+    left: 30px;
+}
+header .connexion i{
+    position: relative;
+    left: 30px;
+}
+header .panier i{
+    position: relative;
+    left: 15px;
+}
+.submenu div:hover{
+    border-bottom: 2px solid red;
+    color: red;
+}
+.submenu div:hover a{
+    color: red;
+}
+.notif{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:15px;
+    text-align: center;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: red;
+    left: 53px;
+    bottom: 25px;
+    position: relative;
+    color: white;
+    font-weight: bolder;
+}
+footer{
+    bottom: 0;
+    position: relative;
+    height: 46vh;
+    background-color: rgb(42,66,66);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+footer .paiement{
+    margin-left: 40px;
+}
+footer div p{
+    font-size: 20px;
+    color: white;
+}
+footer .reseaux img{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+footer .aide{
+    top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60px;
+    width: 300px;
+    border-radius: 30px;
+    color: white;
+    border: 1px solid white;
+
+}
+main{
+    border-radius: 10px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin-top: 100px;
+    height: 60vh;
+    width: 30%;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main section{
+    border-radius: 10px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: whitesmoke;
+    height: 30px;
+}
+form{
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+}
+button{
+    font-weight: bolder;
+    margin-top: 15px;
+    margin-left: 120px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: rgb(42,66,66);
+    color: white;
+    height: 50px;
+    width: 150px;
+}
+button:hover{
+    color: white;
+    background-color: rgb(64, 90, 90);
+}
+.connect input{
+    border-radius: 3px;
+    height: 20px;
+    width: 150px;
+}

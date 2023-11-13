@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/Photos/logo.png" />
+    <link rel="stylesheet" href="fruits.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&family=Work+Sans:ital,wght@1,200&display=swap"
+      rel="stylesheet"
+    />
+    <title>UTILE</title>
+  </head>
+  <body>
+    <!--En tete-->
+    <header data-aos="fade-down" data-aos-duration="1500">
+      <div class="logo">
+        <a href="/index.html"><img src="/Photos/logo.png" alt="logo" /></a>
+      </div>
+      <div class="searchbar">
+        <input type="search" placeholder="Recherhcer un produit" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <div class="submenu">
+        <div class="magasins">
+          <a href="/magasins.html">
+            <p><i class="fa-solid fa-location-dot"></i><br />Magasins</p>
+          </a>
+        </div>
+        <div class="panier">
+          <p class="notif">0</p>
+          <p></p>
+          <p><i class="fa-solid fa-cart-shopping"></i><br />Panier</p>
+        </div>
+        <div class="connexion">
+          <a href="/connexion.html">
+            <p><i class="fa-regular fa-user"></i><br />Connexion</p>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container" data-aos="fade-right" data-aos-duration="1500" style="height: 110vh;">
+        <div class="container-card">
+          <div class="card-image">
+            <img src="/Photos/boulangerie/baguette.jpg" alt="" />
+          </div>
+          <div class="card-text">
+            <div class="likebtn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <span class="title">BAGUETTE</span><br /><br />
+            <span class="montant"><span class="price">200</span> FCFA</span
+            ><span class="unite">/unité</span>
+            <div class="choice">
+              <button class="moins">&minus;</button>
+              <input type="number" value="0" max="25" min="0" />
+              <button class="plus">&plus;</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-card">
+          <div class="card-image">
+            <img src="/Photos/boulangerie/brioche.jpg" alt="" />
+          </div>
+          <div class="card-text">
+            <div class="likebtn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <span class="title">BRIOCHE</span><br /><br />
+            <span class="montant"><span class="price">1000</span> FCFA</span
+            ><span class="unite">/unité</span>
+            <div class="choice">
+              <button class="moins">&minus;</button>
+              <input type="number" value="0" max="25" min="0" />
+              <button class="plus">&plus;</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-card">
+          <div class="card-image">
+            <img src="/Photos/boulangerie/croissant.jpg" alt="" />
+          </div>
+          <div class="card-text">
+            <div class="likebtn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <span class="title">CROISSANT</span><br /><br />
+            <span class="montant"><span class="price">500</span> FCFA</span
+            ><span class="unite">/unité</span>
+            <div class="choice">
+              <button class="moins">&minus;</button>
+              <input type="number" value="0" max="25" min="0" />
+              <button class="plus">&plus;</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-card">
+          <div class="card-image">
+            <img src="/Photos/boulangerie/painburger.jpg" alt="" />
+          </div>
+          <div class="card-text">
+            <div class="likebtn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <span class="title">PAIN HAMBURGER</span><br /><br />
+            <span class="montant"><span class="price">400</span> FCFA</span
+            ><span class="unite">/unité</span>
+            <div class="choice">
+              <button class="moins">&minus;</button>
+              <input type="number" value="0" max="25" min="0" />
+              <button class="plus">&plus;</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-card">
+          <div class="card-image">
+            <img src="/Photos/boulangerie/paincomplet.jpg" alt="" />
+          </div>
+          <div class="card-text">
+            <div class="likebtn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <span class="title">PAIN COMPLET</span><br /><br />
+            <span class="montant"><span class="price">1000</span> FCFA</span
+            ><span class="unite">/unité</span>
+            <div class="choice">
+              <button class="moins">&minus;</button>
+              <input type="number" value="0" max="25" min="0" />
+              <button class="plus">&plus;</button>
+            </div>
+          </div>
+        </div>
+        <div class="container-card">
+          <div class="card-image">
+            <img src="/Photos/boulangerie/paindemie.jpg" alt="" />
+          </div>
+          <div class="card-text">
+            <div class="likebtn">
+              <i class="fa-regular fa-heart"></i>
+            </div>
+            <span class="title">PAIN DE MIE</span><br /><br />
+            <span class="montant"><span class="price">1200</span> FCFA</span
+            ><span class="unite">/paquet</span>
+            <div class="choice">
+              <button class="moins">&minus;</button>
+              <input type="number" value="0" max="25" min="0" />
+              <button class="plus">&plus;</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="achat" data-aos="fade-left" data-aos-duration="1500">
+        <div class="achat-top">
+          <h1>PANIER</h1>
+        </div>
+        <div class="achat-bottom">
+          <p class=" montant-final" ></p>
+        </div>
+      </div>
+    </main>
+    <br><br><br><br><br>
+    <footer>
+      <div class="paiement">
+        <p>MODES DE PAIEMENT:</p>
+        <img src="/Photos/paiement.png" alt="">
+      </div>
+      <div class="reseaux">
+        <p>SUIVEZ-NOUS SUR NOS RESEAUX:</p>
+        <img src="/Photos/facebook.svg" alt="">
+        <img src="/Photos/insta.svg" alt="">
+        <img src="/Photos/ytb.png" alt="">
+        <img src="/Photos/whatsapp.png" alt="">
+        <div class="aide">
+          Besoin d'aide ?📞:  + 221 33 876 21 21
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="/script.js"></script>
+</html>
